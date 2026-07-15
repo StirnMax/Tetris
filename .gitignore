@@ -1,0 +1,9 @@
+# Mac Systemdateien
+.DS_Store
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Highscores (damit Spieler lokal bei 0 anfangen)
+highscores.json
