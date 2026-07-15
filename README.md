@@ -1,17 +1,17 @@
 # Modern Python Tetris 🧱
 
-Ein klassischer Tetris-Klon, geschrieben in Python mit Pygame. 
-Verfügt über moderne Mechaniken wie Ghost-Piece, Wall-Kicks, Lock-Delay und ein Level-System!
+A classic Tetris clone written in Python using Pygame. 
+Features modern mechanics such as a ghost piece, wall kicks, lock delay, and a leveling system!
 
 ## Installation
-1. Stelle sicher, dass Python installiert ist.
-2. Installiere die benötigten Bibliotheken:
+1. Make sure Python is installed.
+2. Install the required libraries:
    `pip install -r requirements.txt`
-3. Starte das Spiel:
+3. Start the game:
    `python main.py`
 
-## Steuerung
-* **Pfeil Links / Rechts**: Block bewegen
-* **Pfeil Hoch**: Block drehen
-* **Pfeil Runter**: Soft Drop (schneller fallen)
-* **Leertaste**: Hard Drop (sofort fallen lassen)
+## Controls
+* **Left / Right Arrow**: Move piece
+* **Up Arrow**: Rotate piece
+* **Down Arrow**: Soft drop (fall faster)
+* **Spacebar**: Hard drop (drop instantly to the bottom)
