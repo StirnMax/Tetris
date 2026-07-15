@@ -17,11 +17,9 @@ class AudioPath:
         pygame.mixer.init()
         self.sounds = {}
 
-        # Dynamisch den genauen Pfad zum assets-Ordner finden
         base_dir = os.path.dirname(__file__)
         assets_dir = os.path.join(base_dir, 'assets')
 
-        # 1. Kurze Soundeffekte laden
         sound_files = {
             'move': 'move.wav',
             'rotate': 'rotate.wav',
@@ -36,7 +34,7 @@ class AudioPath:
             else:
                 self.sounds[name] = None
 
-        # 2. Hintergrundmusik (Soundtrack) laden
+       
         music_file = os.path.join(assets_dir, 'Tetris.mp3')
 
         if os.path.exists(music_file):
